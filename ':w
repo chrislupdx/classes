@@ -1,0 +1,13 @@
+#include "list.h"
+
+//constructors
+list::list()
+{
+  node * head; //its a given, do we need to define it like this
+  head = new * node; //do we want it to have stuff in it?
+  //do we need init data? 
+  head->next = nullptr;
+}
+
+void list::insert(node *, int) //positional insert
+{}
